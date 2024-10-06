@@ -30,18 +30,13 @@ To run this application, ensure you have a web browser installed.
    ```bash
    git clone <repository-url>
    
-Open ```index.html in your web browser.
+Open ```index.html``` in your web browser.
 
 
-Usage
--- Click on the numbers and operators to input your calculations.
--- Use the "Clear" button to reset the input.
--- Click the "=" button to see the result of your calculation.
+Usage : 
+1. Click on the numbers and operators to input your calculations.
+2. Use the "Clear" button to reset the input.
+3. Click the "=" button to see the result of your calculation.
 
-
--/Calculator-App
--│
--├── index.html        # Main HTML file
--├── calciStyles.css   # CSS for styling the calculator
--├── calciScript.js    # JavaScript for calculator functionality
--└── README.md         # Project documentation
+## File Structure
+/Calculator-App │ ├── index.html # Main HTML file ├── calciStyles.css # CSS for styling the calculator ├── calciScript.js # JavaScript for calculator functionality └── README.md # Project documentation
