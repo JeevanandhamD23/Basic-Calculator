@@ -34,14 +34,14 @@ Open ```index.html in your web browser.
 
 
 Usage
-Click on the numbers and operators to input your calculations.
-Use the "Clear" button to reset the input.
-Click the "=" button to see the result of your calculation.
+-- Click on the numbers and operators to input your calculations.
+-- Use the "Clear" button to reset the input.
+-- Click the "=" button to see the result of your calculation.
 
 
-/Calculator-App
-│
-├── index.html        # Main HTML file
-├── calciStyles.css   # CSS for styling the calculator
-├── calciScript.js    # JavaScript for calculator functionality
-└── README.md         # Project documentation
+-/Calculator-App
+-│
+-├── index.html        # Main HTML file
+-├── calciStyles.css   # CSS for styling the calculator
+-├── calciScript.js    # JavaScript for calculator functionality
+-└── README.md         # Project documentation
