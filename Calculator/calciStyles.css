@@ -1,0 +1,88 @@
+body{
+    /* background-color: #050a0e; */
+}
+
+.calciOuter{
+    /* background-color: #060b0f; */
+    color: white;
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.calciInput{
+    background-color: #0d1d2a;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+input{
+    background-color: #183048;
+    /* background-color: white */
+    width: 90%;
+    height: 70%;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+   
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calciContainer{
+    background-color: #183048;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.numbers{
+ width: 20%;
+ height: 100px;
+ background-color: #193149;
+ margin: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 1px dashed black;
+ box-shadow:  0 0 30px 20px #1e3b52;
+ border-radius: 5px;
+
+}
+
+
+.clear{
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: rgb(180, 65, 65);
+    color: white;
+    box-shadow:  0 0 30px 20px #1e3b52;
+    border-radius: 5px;
+}
+
+.equals{
+    font-size: 40px;
+    color:black;
+    font-weight: 900;
+    background-color: rgb(97, 235, 97);
+}
+
+input[type="text"] { 
+    padding: 10px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+} 
