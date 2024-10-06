@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calcualtor</title>
+    <link rel="stylesheet" href="./calciStyles.css" />
+    <script src= 
+    "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+            integrity= 
+    "sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script> 
+        <script src= 
+    "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+            integrity= 
+    "sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script> 
+</head>
+
+
+<body>
+
+    <div class="calciOuter" id="123">
+        <div class="calciInput">
+            <input class="input" type="text" pattern="\d{10}" maxlength="10" >
+        </div>
+        <div class="calciContainer">
+            <div class="numbers" onclick="enterMethod(7)" >7</div>
+            <div class="numbers" onclick="enterMethod(8)">8</div>
+            <div class="numbers" onclick="enterMethod(9)">9</div>
+            <div class="numbers" onclick="enterMethod('+')">+</div>
+            <div class="numbers" onclick="enterMethod(4)">4</div>
+            <div class="numbers" onclick="enterMethod(5)">5</div>
+            <div class="numbers" onclick="enterMethod(6)">6</div>
+            <div class="numbers" onclick="enterMethod('-')">-</div>
+            <div class="numbers" onclick="enterMethod(1)">1</div>
+            <div class="numbers" onclick="enterMethod(2)">2</div>
+            <div class="numbers" onclick="enterMethod(3)">3</div>
+            <div class="numbers" onclick="enterMethod('/')">/</div>
+            <div class="numbers" onclick="enterMethod(0)">0</div>
+            <div class="numbers" onclick="enterMethod('*')">*</div>
+            <div class="numbers clear" onclick="clearInput()">Clear</div>
+            <div class="numbers equals" onclick="calculate()">=</div>
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+<script src="./calciScript.js"></script>
+
+
+
+</html>
+
+
+<!-- //LLD  -->
+
+<!-- Low level design
+
+1. Calculator APP
+
+
+ Numbers ( 0 -  9 )
+ Basic operators ( + - / * )  
+ Enter or Equals symbol (Enter)
+ Delete (Clear Btn)
+ Decimal (.)  -->
+
+
