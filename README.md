@@ -39,4 +39,8 @@ Usage :
 3. Click the "=" button to see the result of your calculation.
 
 ## File Structure
-/Calculator-App │ ├── index.html # Main HTML file ├── calciStyles.css # CSS for styling the calculator ├── calciScript.js # JavaScript for calculator functionality └── README.md # Project documentation
+/Calculator-App │<br>
+├── index.html # Main HTML file <br>
+├── calciStyles.css # CSS for styling the calculator <br>
+├── calciScript.js # JavaScript for calculator functionality <br>
+└── README.md # Project documentation
